@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>笑死YouTube壞了</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000;
+        }
+
+        #YtIcon {
+            width: 200px;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #YtIcon_02 {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top:75px;
+            left:500px;
+        }
+
+        #Twitch {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top:75px;
+            left:545px;
+        }
+
+        #Netflix {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top:75px;
+            left:590px;
+        }
+
+        .text {
+            font-size: 2em;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+    </style>
+</head>
+<body>
+    <a href = "https://www.youtube.com/">
+        <img id="YtIcon"
+             src="https://www.jyes.com.tw/data/editor/images/%E5%B0%81%E9%9D%A2%E9%A4%98%E5%9C%98.png"
+            alt="YtIcon">
+    </a>
+
+    <a href = "https://www.youtube.com/">
+        <img id="YtIcon_02"
+             src="https://static-00.iconduck.com/assets.00/youtube-icon-2048x2048-wiwalbpx.png"
+             alt="YtIcon_02">
+    </a>
+
+    <a href = "https://www.twitch.tv/">
+        <img id="Twitch"
+             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA/FBMVEWTR/8AAAD///8AAAKXS/8BAAdeO541IFby8vIABAAFAAFGREx0Q8T+/f9+foKSRfwAAB2PSPaESdqVlZUvLy/n5+ekpKVTU1OUQv9wcHCORf+WRflnQa4AAAyQRvu0tLSLTO4AABVJSUsmJibe3t8AABsAACGMSvVdQJQzHV01IFk0IVR7RNOGS+JfNJ+KUflYOpaMUu9oQaNlP7MRABsJACiJTP5oPrdmZmaHh4fV1dcdHR5II3w/I3cQEBM6HmiIUdo3NzkrGkcuGF+ATszFxcWASOgmDlglEzksEVGEVMYnEUQeBjSXRuwjA0BZQI5DJ2s2LFlEJHMqCmOiv6mBAAAGfUlEQVR4nO2cAVvaOBiAG9K6pSer4eSWpVKLMjo3K+Pc6TbnxFN32+m83e7//5dL0hahFByukJLne59HURtqX77kS9omtSwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt2AtErxkNObOj6MXey1ePXj4qG7nTV3v7ehUDj9vxAVok63oNWUB7B20HiyNR30rFwa5DtBta/dctgoixhnbUO0AkUcNGGlr9tbZLXKwoW1CzIaWM+bT3egO5roudRQjqNvQZo/EBbmGEVQssV1HVCb2GIoKWyKItcQgLiqB+Q9EGuy4miWH5eQbrrqW+Ha2pw0CpIdp5XCZPkG5Du3/QFd2gqJ+O4yBlWCuPeu2JxloaWJZHuWiDrqxIEllDyzfUF0PqMS8M11BL1s9hm0HoF2MMmSey6O/dJIuaach477CFMDE2htQ62mqrsbZohWYa9g/bhMheHhtqGBy/kQPRJIsaZhhxRsOjF7L1ZdEzzJAHnhVu/SGzqKGGzONHx2+QHIsaaihGModd8Z9J/pKFMYZR73iDKB1sqCEXWVQOZO6SqGmG9hoi6lQwfzJ4r2E9e63PKFQBQ2vtbqA2j+EPao2UWzXD2q87TxN2Onmnt+mWp8/qY39fNcNhyU5+0262ZdMQw2Z+0yYYgiEYgiEYgiEYgiEYgiEYgiEYgiEYgiEYgiEYgiEYgqEhhsOr+rsrbbj9LOXthOG7bNO7lTacm5UznHoDcdqGlTOcGzAEQzCshqGWed5LM6y9PzE8hp0TpGfNzLIMlaDJhh217sngWtrZRVjXyq4lGNZrHUctohJfrouJ8yE0zLDWPEkiqGJI0IfGV8MMO5uqDaq1YoSg09D2TTJ8XGt+TCMoX0QE44Axkwxrzd00glgJnvW5Z5ZhczeLoNrnt0HIWBCaY1jPBBFyW+LbaT+wLSug5hgqwWSHDiGt08FS3ZZg2EyyqEJm0T7V8FiTRRomgpkhOhssOYsu3FAJZvuTWVQu+DfJsDns6NMIUpFFV7QdFi65eHyOUj3HkYJxZDNGowoZys9/p0jnR9Za1GvN82EVbYkkc9YIlu/2A4abvxWxnfe5Kih0fpdFxUjmNA61PRxquuHUp0Y8ywluF5YazaIXA20RnBnDYj+cN9xG2bClGBVBqiOL3mtYyITh9oyy8vMQggPKPU+X4FTDqeQMt4efRkFRMVLD+M9QRJCHGvqJBxo6Y4bFbTArKrPoaUOXWimGV7PLCsE9HYPt8gzvF7y4pNpSTAmG9wiKJru3rjGJ/rzhfYJiJHMZMa6xK/xJw/sEEfq8H1ks6K2aYdJb1OuzBWU/+NcnzW4JD+0Pr1B6/lEIIZqHaiM80PBqxrhOKcoILvXC71QeZCir6MznuTno8yVnK2yoquisGLa//B2usOGT9x9R0WMYRrgWQzWfct1yirkNEdo5mbGR4BZBtwOxZ68aieYhhjORgb0eaH7a8xhlG4p9XV9Wo3qmlG1IRAS5X40ck1C2IbpeF0lU9xnTKGUb3u4HHuVVqqblGRLsiCq6bzE/MtYQk5v9KmXRhPIMRQRvLm3d57uTlBhDdLNuMX1XDadRoqEU/FqlfiJhrRQ7ye069fzqhdA+aD9/3t0ooLvR7bZzEji7Ibgx9pZuV/zabYgIRlVKoglHUWPQiBsFfBJ//yfv5ziOi53Wt8vJ8rFulSlwi0Y0oAXwiNKtnKB6kdOa4mjyDbpVpjBM7nb6dfejaFOHY4ZJQiLoW6xutNjj76oqnhd4QtObwOfUt7byhvIhkqdx5DE2WpYpdKtMIaBBMVQY2hOGqIU+NALL43ykqPhNoltlCurQAj5JwKlnj9dS9Zj2f6PIlvfKJt+hW2VePB54wxiqJIqJmtaktlbkAsVPMWqYZlF1MzDUfWClMW6YZdF+Ra7ylkHeUFXROKpsypyfnKE4vXW+y37QWEPkiI4+tBhb6jT7hSIMZX+ougi5SAKdxWr0UtXB2fwESY+fPAfbJei79hkHZeONjmkI2usvd5HEEhgxxDKCWqb3LpQ7QzEePYu5b1AWTQgyQykop/dGoe5DKpnU0HGQc9EIfIvRUPchlYxtKUMXVWbGQelwXxqqCdqm9RMpIrfIdvhFZFHdh7IYxJjG5ofoItazSGIJ+FzE7vg/2Q8GZrZDKmfc7X+KRAR7oe6DAQAAAAAAAAAAAAAAAAAAAAAAAABgbv4HpY/r6HdtawMAAAAASUVORK5CYII="
+             alt="Twitch">
+    </a>
+
+    <a href = "https://www.netflix.com/tw/">
+        <img id="Netflix"
+             src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+             alt="YtIcon">
+    </a>
+
+    <div class = "text">
+        <span class = "broken">笑死，YouTube不能用<br>為了防止你午餐時間太無聊建議你可以回去繼續上班，或嘗試以下選項</span>
+    </div>
+</body>
+</html>
